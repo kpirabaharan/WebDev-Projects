@@ -1,0 +1,42 @@
+/* Tag Selectors */
+
+body {
+  background-color: #EAF6F6;
+}
+
+img{
+  height: 400px;
+}
+
+h3{
+  color: #66BFBF;
+}
+
+h3:hover {
+  color: gold;
+}
+
+h4{
+  color: #3289a8;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 8px;
+}
+
+/* Class Selectors */
+/* To change classes of images I need to init in html then .class then make changes */
+
+
+.swag{
+  height: 300px;
+}
+
+/* id Selectors */
+
+#heading {
+  color: #3289a8;
+}

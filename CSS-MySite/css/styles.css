@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0px auto;
+  font-size: 5.625rem;
+  font-family: 'Amatic SC', cursive;
+}
+h2{
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 20px auto;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.skills-row{
+  width: 50%;
+  margin: auto;
+}
+
+.Software{
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Robotics{
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile{
+  padding-bottom: 20px;
+}
+
+.profile-pic{
+  padding-top: 20px;
+  border-radius: 20%;
+  width: 150px;
+}
+
+.soft-pic{
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.robotics-pic{
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.top-container{
+  background-color: #C4DDFF;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container{
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 10px 0 20px 0;
+}
+
+.contact-details{
+  color: #EAF6F6;
+}
+.name{
+  color: #EAF6F6;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
