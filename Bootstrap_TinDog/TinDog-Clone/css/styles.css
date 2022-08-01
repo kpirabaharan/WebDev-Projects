@@ -1,3 +1,22 @@
+/* custom.scss */
+
+/* import the necessary Bootstrap files */
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
 #title {
   font-family: 'Montserrat';
   background-color: #ff4c68;
@@ -69,9 +88,7 @@
   text-align: center;
 }
 
-p{
-  color: #8f8f8f;
-}
+
 
 .icon{
   color: #ef8172;
@@ -81,4 +98,55 @@ p{
 
 .icon:hover{
   color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+.card-body{
+  height: 260px;
+}
+
+.btn-primary {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus{
+  background-color: #fe2a4c;
+  border-color: #fe2a4c;
+}
+
+.bg-primary{
+  background-color: #ff4c68 !important;
+}
+
+.border-primary{
+  border: green !important;
 }
